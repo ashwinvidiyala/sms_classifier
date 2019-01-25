@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    classifier-reborn (2.2.0)
+      fast-stemmer (~> 1.0)
+    fast-stemmer (1.0.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  classifier-reborn
+
+BUNDLED WITH
+   1.17.1
