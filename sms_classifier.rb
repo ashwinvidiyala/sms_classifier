@@ -8,7 +8,6 @@ f.each_line do |line|
   line_number += 1
   sentence = line.split(' ')
   category = sentence.shift == 'spam' ? 'spam' : 'not spam'
-  # puts "#{category}: #{sentence.join(' ')}"
   classifier.train(category, sentence.join(' '))
 end
 
